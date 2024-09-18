@@ -2,7 +2,7 @@ console.log ("funcinando");
 
 // Substitua com sua chave de API e Audience ID
 const apiKey = 'ca5df9a34286a210c75699356751f2a9-us17';
-const audienceId = 'SEU_AUDIENCE_ID';
+const audienceId = 'af3bf2ec83';
 const serverPrefix = 'us17'; // Exemplo: 'us19'
 
 // Função para enviar email via API do Mailchimp
