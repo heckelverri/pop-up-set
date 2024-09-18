@@ -25,7 +25,7 @@ async function subscribeUser(email) {
 
   if (response.ok) {
     const result = await response.json();
-    console.log('Usuário inscrito com sucesso:', result);
+    console.log('Obrigada! Insira o código BEMVINDA no checkout e ganhe 15% OFF em sua primeira compra.', result);
     document.getElementById('success-message').style.display = 'block'; // Mostra a mensagem de sucesso
   } else {
     const error = await response.json();
